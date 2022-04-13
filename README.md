@@ -18,7 +18,7 @@ DB_NAME=
 NODE_ENV=development|production
 ```
 
-To get the tests to pass, you must create a `tests` collection in your database with a success set to `true`.
+To get the tests to pass, you must create a `tests` collection in your database with a resource with a key of `success` set to `true`.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
