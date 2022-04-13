@@ -1,4 +1,7 @@
 # Next.js, MongoDB (Atlas), User Auth, Paypal
+
+Gimme some server-side rendering with minimal set up. 🤩
+
 ## Getting Started
 
 First, run the development server:
