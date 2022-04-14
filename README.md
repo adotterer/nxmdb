@@ -15,6 +15,9 @@ yarn dev
 ```
 MONGODB_URI=
 DB_NAME=
+NEXTAUTH_SECRET=
+GOOGLE_ID=
+GOOGLE_SECRET=
 NODE_ENV=development|production
 ```
 
