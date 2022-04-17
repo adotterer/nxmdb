@@ -1,11 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import clientPromise from '../lib/mongodb'
 import { useSession } from 'next-auth/react'
-import {FaReact} from "react-icons/fa"
-import {SiJavascript} from "react-icons/Si"
-import {FaHtml5} from "react-icons/fa"
+
 export default function Home({isConnected}) {
   const { data: session, status } = useSession()
   const loading = status === "loading"
@@ -24,7 +21,7 @@ export default function Home({isConnected}) {
 
         <p>Mongo is {isConnected ? "Connected" : "not connected :("}</p>
         <div>
-        <FaHtml5 style={{fontSize: "50em", color: "#F0DB4F"}}/>
+       
         </div>
         </main>
     </div>

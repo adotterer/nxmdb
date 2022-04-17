@@ -1,4 +1,4 @@
-# Next.js, MongoDB (Atlas), User Auth, Paypal
+# Next.js, MongoDB, User Auth
 
 Gimme some server-side rendering with minimal set up. 🤩
 
